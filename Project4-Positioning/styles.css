@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: beige;
+    font-family: 'Anaheim', sans-serif;
+}
+
+header.nav{
+    background-color: rgb(217, 161, 32);
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+ul.nav-links {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 1em;
+}
+
+.nav-links li{
+    display: inline-block;
+}
+.nav-lt{
+    float: left;
+    margin-left: 2em;
+}
+
+.nav-rt{
+    float: right;
+}
+
+div.box{
+    border: 2px solid rgb(217, 161, 32);
+    border-radius: 5px;
+    max-width: 250px;
+    background-color: #fff;
+    /* float: left; */
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 1em;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
+
+div.btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em;
+    float: center;
+}
+
+div.btn{
+    background-color: rgb(217, 161, 32);
+    border: 2px solid rgb(217, 161, 32);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+
+section{
+    max-width: 1200px;
+    margin: 2em auto;
+    margin-top: 2em;
+}
+
+main.main-container{
+    padding: 20px;
+}
