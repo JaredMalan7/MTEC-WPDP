@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(215, 215, 215);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.65em;
+    max-width: 800px;
+    margin: 4em auto;
+}
+
+.divBox{
+    background-color: rgb(60, 60, 60);
+    /* margin: 2em auto; */
+    padding: 4.5em;
+    /* border: 1px solid #fff; */
+    width: 30px;
+    height: 30px;
+}
+
+.switch{
+    background-color: rgb(150, 150, 150);
+}
