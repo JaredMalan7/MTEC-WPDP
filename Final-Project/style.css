@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+html{
+    background-color: rgb(200, 200, 200);
+}
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Barlow', sans-serif;
+    max-width: 1200px;
+    margin: 4em auto;
+
+}
+
+div#container{
+    /* max-width: 1000px; */
+    margin: 4em auto;
+    /* background-color: rgb(218, 218, 218); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+
+div.main-post{
+    background-color: white;
+    padding: 1em;
+    /* margin: 0 40px; */
+    position: sticky;
+    top: 0;
+    /* box-shadow: 0 0 10px rgb(105, 105, 105); */
+}
+
+#commentContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1200px;
+    /* box-shadow: 0 0 10px rgb(105, 105, 105); */
+    border-bottom: 40px solid rgb(200, 200, 200);
+}
+
+form#commentSection{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 1em;
+    background-color: white;
+
+    padding: 2em;
+    font-size: 20px;
+    /* margin: 80px 5em auto; */
+}
+
+
+#displayName{
+    padding: .5em;
+    font-size: 18px;
+}
+
+#comment{
+    min-width: 100%;
+    max-width: 600px;
+    padding: .5em;
+    font-size: 18px;
+}
+
+
+
+
+
+/*=============Buttons=============*/
+div#submitButton{
+    /* padding: .5em; */
+    margin-left: 1em;
+    font-size: 30px;
+    
+}
+
+#submitButton, .deleteComment, .editButton, #submitEdit{
+    cursor: pointer;
+    color: rgb(96, 152, 255);
+}
+
+#submitEdit{
+    padding: 1em;
+    font-size: 18px;
+}
+
+.deleteComment, .editButton{
+    padding: .5em;
+    font-size: 22px;
+    justify-self: end;
+}
+
+
+/*============= New Comments Layout =============*/
+
+p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+h1{
+    margin-top: .25em;
+}
+
+#userComment{
+    background-color: white;
+    padding: 1em;
+    margin: 15px;
+    /* display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center; */
+}
+
+.userBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.commentBox{
+    margin-left: 20px;
+    flex: 1;
+}
+
+#editComment{
+    min-width: 90%;
+    padding: 1em;
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.userName, .comment{
+    margin: 0;
+}
+
+img.userLogo{
+    max-width: 70px;
+}
+
+
+
